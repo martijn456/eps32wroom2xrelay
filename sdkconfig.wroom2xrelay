@@ -1,5 +1,5 @@
-CONFIG_ION_RXD=3
-CONFIG_ION_TXD=1
+CONFIG_ION_RXD=21
+CONFIG_ION_TXD=22
 
 CONFIG_ION_LIGHT_PIN=17
 CONFIG_ION_LIGHT_PIN_INVERTED=n
@@ -15,8 +15,8 @@ CONFIG_ION_CHARGE_PIN=35
 # The scale of the divider, times 1000
 CONFIG_ION_DIVIDER_SCALE=11000
 
-# Consider 21V (3.0V/cell for 7s) empty
-CONFIG_ION_ADC_EMPTY_MV=21000
+# Consider 21V (3.0V/cell for 7s) empty,battary empty by 33% so 29400-21000%100x33=2772 21000+2772=23772 now 23772 empty if motor enable voltige drop under 21 volt.
+CONFIG_ION_ADC_EMPTY_MV=23000
 
-# Consider 29.4V (4.2V/cell for 7s) full
-CONFIG_ION_ADC_FULL_MV=29400
+# Consider 29.4V (4.2V/cell for 7s) full, battary full and voltige drop if motor enable 33% so 29400-2772=26628 test with 27500
+CONFIG_ION_ADC_FULL_MV=27500
