@@ -18,8 +18,8 @@ For sale on: https://nl.aliexpress.com/item/1005004244895380.html?spm=a2g0o.ppcl
 - 35 - charge GND
 - 16 - Light
 - 17 - Relay
-- 3 - RX
-- 1 - TX
+- 21 - RX
+- 22 - TX
 
 
 # Banana battery file for the 3d printer for the housing.
