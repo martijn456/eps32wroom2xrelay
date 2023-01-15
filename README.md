@@ -14,8 +14,8 @@ https://www.pedelecforum.de/forum/index.php?threads/zweiter-fruehling-fuer-ion-a
 For sale on: https://nl.aliexpress.com/item/1005004244895380.html?spm=a2g0o.ppclist.product.70.7d5ezVYvzVYvvW&pdp_npi=2%40dis%21EUR%21%E2%82%AC%2011%2C14%21%E2%82%AC%208%2C02%21%21%21%21%21%40211b442016689517013615945e3218%2112000028506964651%21btf&_t=pvid%3A91865980-3bbb-4290-836d-310a92afeaae&afTraceInfo=1005004244895380__pc__pcBridgePPC__xxxxxx__1668951701&gatewayAdapt=glo2nld
 
 # Pins used on the esp32 wroom 2x relay.
-- 34 - ADC
-- 35 - charge GND
+- 35 - ADC
+- 34 - charge GND
 - 16 - Light
 - 17 - Relay
 - 21 - RX
